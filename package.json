@@ -1,0 +1,22 @@
+{
+  "name": "test-kraftvaerk",
+  "version": "1.0.0",
+  "description": "test for kraftvaerk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akella13/test-kraftvaerk.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Akella13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akella13/test-kraftvaerk/issues"
+  },
+  "homepage": "https://github.com/Akella13/test-kraftvaerk#readme"
+}
