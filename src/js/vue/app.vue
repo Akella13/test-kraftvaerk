@@ -1,7 +1,7 @@
 <template>
   <div>
-    <filter-header></filter-header>
-    <result-list></result-list>
+    <filter-header />
+    <result-list />
   </div>
 </template>
 
