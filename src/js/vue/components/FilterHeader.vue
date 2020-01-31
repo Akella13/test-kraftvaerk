@@ -9,8 +9,8 @@
       <div class="filter__top-pag">
         <h5>Lajitteluperuste</h5>
         <button
-          v-for="item in pagination"
-          :key="item"
+          v-for="(item, index) in pagination"
+          :key="index"
           :class="{ 'filter__top-pag--active': item === pagActive }"
           @click="pagActive = item">
           {{ item }}
@@ -23,7 +23,7 @@
       <div>
         <button
           v-for="filter in filters"
-          :key="filter"
+          :key="filter.name"
           :class="{ 'filter__bottom-button--active': filter.active }"
           @click="filter.active = !filter.active">
           {{ filter.name }}
