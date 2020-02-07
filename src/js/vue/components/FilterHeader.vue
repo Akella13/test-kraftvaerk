@@ -38,7 +38,7 @@
 
 <script>
 import axios from 'axios';
-import { mapMutations } from 'vuex';
+import { mapState, mapMutations } from 'vuex';
 
 export default {
   data() {
@@ -47,6 +47,12 @@ export default {
       sortings: [],
       filters: [],
     }
+  },
+  computed: {
+    ...mapState([
+      'sortingActive',
+      'filtersActive',
+    ])
   },
   mounted() {
     // pull sorting types and assign them to data
