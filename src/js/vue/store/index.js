@@ -11,4 +11,9 @@ export default new Vuex.Store({
 		sortingActive: null,
 		filtersActive: [],
 	},
+	mutations: {
+		queryUpdate(state, payload) {
+			state.query = payload;
+		}
+	},
 })

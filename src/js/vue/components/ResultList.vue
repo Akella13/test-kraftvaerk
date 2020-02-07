@@ -11,12 +11,18 @@
 
 <script>
 import axios from 'axios';
+import { mapState } from 'vuex';
 
 export default {
   data() {
     return {
       result: null,
     }
+  },
+  computed: {
+    ...mapState([
+      'query'
+    ])
   },
   mounted() {
     this.pullResults();

@@ -2,10 +2,10 @@
   <div>
     <section class="filter__top">
       <h4>HAE</h4>
-      <div class="filter__top-search">
+      <form class="filter__top-search" @submit.prevent="queryUpdate(query)">
         <input type="text" v-model="query">
-        <button type="button">Search</button>
-      </div>
+        <button type="submit">Search</button>
+      </form>
       <div class="filter__top-sorting">
         <h5>Lajitteluperuste</h5>
         <button
@@ -38,6 +38,7 @@
 
 <script>
 import axios from 'axios';
+import { mapMutations } from 'vuex';
 
 export default {
   data() {
@@ -54,6 +55,9 @@ export default {
     this.pullFilters();
   },
   methods: {
+    ...mapMutations([
+      'queryUpdate'
+    ]),
     pullSortings() {
       axios({
         method: 'get',
@@ -86,7 +90,7 @@ export default {
       } else {
         this.filtersActive.push(item);
       }
-    }
+    },
   },
 }
 </script>
