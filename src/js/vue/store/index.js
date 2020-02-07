@@ -12,12 +12,15 @@ export default new Vuex.Store({
 		filtersActive: [],
 	},
 	mutations: {
+		// update search query value
 		queryUpdate(state, payload) {
 			state.query = payload;
 		},
+		// use sorting type
 		sortingUse(state, payload) {
 			state.sortingActive = payload;
 		},
+		// include/exclude filter if it is active
 		filtersUpdate(state, payload) {
 			if (state.filtersActive.includes(payload)) {
 				state.filtersActive = state.filtersActive.filter(el => payload !== el);

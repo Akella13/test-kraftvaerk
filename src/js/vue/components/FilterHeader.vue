@@ -45,14 +45,17 @@ export default {
     return {
       query: '',
       sortings: [],
-      sortingActive: null,
       filters: [],
-      filtersActive: [],
     }
   },
   mounted() {
-    this.pullSortings();
-    this.pullFilters();
+    // pull sorting types and assign them to data
+    this.pullRequest('sortings', 'sortings')
+      .then(() => {
+        this.sortingUse(this.sortings[0]);
+      });
+    // pull filter types and assign them to data
+    this.pullRequest('filters', 'filters');
   },
   methods: {
     ...mapMutations([
@@ -60,30 +63,13 @@ export default {
       'sortingUse',
       'filtersUpdate',
     ]),
-    pullSortings() {
-      axios({
-        method: 'get',
-        url: '/public/data/sortings.json',
-      })
-        .then((response) => {
-          this.sortings = response.data;
-          this.sortingUse(this.sortings[0]);
-        })
-        .catch((error) => {
-          console.error(error.response.data);
-        })
-    },
-    pullFilters() {
-      axios({
-        method: 'get',
-        url: '/public/data/filters.json',
-      })
-        .then((response) => {
-          this.filters = response.data;
-        })
-        .catch((error) => {
-          console.error(error.response.data);
-        })
+    async pullRequest(url, target) {
+      const response = await axios.get(`/public/data/${url}.json`);
+      try {
+        this.$data[target] = response.data;
+      } catch (error) {
+        console.error(error.response.data);
+      }
     },
   },
 }
