@@ -25,10 +25,10 @@ export default {
     pullResults() {
       axios({
         method: 'get',
-        url: '/public/data/data.json',
+        url: '/public/data/pages/1.json',
       })
         .then((response) => {
-          this.result = response.data.JSON;
+          this.result = response.data;
         })
         .catch((error) => {
           console.error(error.response.data);

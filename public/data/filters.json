@@ -1,0 +1,55 @@
+[{
+  "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+  "Name": "Terassit",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Terassin öljyäminen"
+}, {
+  "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+  "Name": "Katot",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+}, {
+  "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+  "Name": "Puujulkisivut",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+}, {
+  "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+  "Name": "Tasoitustyöt",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Sisäseinien osa- ja ylitasoitukset."
+}, {
+  "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+  "Name": "Efektimaalaus",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+}, {
+  "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+  "Name": "Sisämaalaukset",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+}, {
+  "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+  "Name": "Lattiat",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+}, {
+  "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+  "Name": "Kivijulkisivut ja sokkelit",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+}, {
+  "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+  "Name": "Ovet ikkunat ja kalusteet",
+  "ExpertArea": "",
+  "FillColor": null,
+  "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+}]

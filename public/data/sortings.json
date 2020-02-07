@@ -1,0 +1,13 @@
+[{
+  "Name": "NumberOfProjects",
+  "Heading": "Työnäytteet",
+  "Reverse": true
+}, {
+  "Name": "Name",
+  "Heading": "Nimi",
+  "Reverse": false
+}, {
+  "Name": "NumberOfFeedback",
+  "Heading": "Palaute",
+  "Reverse": true
+}]

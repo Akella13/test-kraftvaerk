@@ -6,14 +6,14 @@
         <input type="text" v-model="query">
         <button type="button">Search</button>
       </div>
-      <div class="filter__top-pag">
+      <div class="filter__top-sorting">
         <h5>Lajitteluperuste</h5>
         <button
-          v-for="(item, index) in pagination"
+          v-for="(sorting, index) in sortings"
           :key="index"
-          :class="{ 'filter__top-pag--active': item === pagActive }"
-          @click="pagActive = item">
-          {{ item }}
+          :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
+          @click="sortingActive = sorting">
+          {{ sorting.Heading }}
         </button>
       </div>
     </section>
@@ -23,10 +23,10 @@
       <div>
         <button
           v-for="filter in filters"
-          :key="filter.name"
+          :key="filter.Id"
           :class="{ 'filter__bottom-button--active': filter.active }"
           @click="filter.active = !filter.active">
-          {{ filter.name }}
+          {{ filter.Name }}
         </button>
       </div>
     </section>
@@ -37,55 +37,47 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
       query: '',
-      pagination: [
-        'Työnäytteet',
-        'Nimi',
-        'Palaute',
-      ],
-      pagActive: 'Työnäytteet',
-      filters: [
-        {
-          name: 'Terassit',
-          active: false,
-        },
-        {
-          name: 'Katot',
-          active: false,
-        },
-        {
-          name: 'Puujulkisivut',
-          active: false,
-        },
-        {
-          name: 'Tasoitustyöt',
-          active: false,
-        },
-        {
-          name: 'Efektimaalaus',
-          active: false,
-        },
-        {
-          name: 'Sisämaalaukset',
-          active: false,
-        },
-        {
-          name: 'Lattiat',
-          active: false,
-        },
-        {
-          name: 'Kivijulkisivut ja sokkelit',
-          active: false,
-        },
-        {
-          name: 'Ovet ikkunat ja kalusteet',
-          active: false,
-        },
-      ]
+      sortings: [],
+      sortingActive: null,
+      filters: [],
     }
+  },
+  mounted() {
+    this.pullSortings();
+    this.pullFilters();
+  },
+  methods: {
+    pullSortings() {
+      axios({
+        method: 'get',
+        url: '/public/data/sortings.json',
+      })
+        .then((response) => {
+          this.sortings = response.data;
+          this.sortingActive = this.sortings[0];
+        })
+        .catch((error) => {
+          console.error(error.response.data);
+        })
+    },
+    pullFilters() {
+      axios({
+        method: 'get',
+        url: '/public/data/filters.json',
+      })
+        .then((response) => {
+          this.filters = response.data;
+        })
+        .catch((error) => {
+          console.error(error.response.data);
+        })
+    },
   },
 }
 </script>

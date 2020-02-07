@@ -1,0 +1,833 @@
+[{
+  "ID": "37669bd2-14c9-e211-8053-60eb696ecc53",
+  "Name": "Tmi Antti Puumanen",
+  "City": "HELSINKI",
+  "PhoneNumber": "+358442546122",
+  "Email": "antti.puumanen@gmail.com",
+  "Description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana\ntöitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä\nRestaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 0,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "tmi-antti-puumanen",
+  "EncodedName": "tmi-antti-puumanen"
+}, {
+  "ID": "4f45a304-b4fc-e511-8109-3863bb357ff8",
+  "Name": "Design Saarinen Sisustussuunnittelu & Erikoismaalaus",
+  "City": "ROVANIEMI",
+  "PhoneNumber": "0407602034",
+  "Email": "marjo@designsaarinen.fi",
+  "Description": "Tarjoan Sinulle sisustussuunnittelu- ja erikoismaalauspalvelua, jota teen suurella sydämellä -asiakkaan toiveiden ja mieltymysten mukaisesti. Saat pikaiset vinkit tai kokonaisvaltaiset sisustussuunnitelmat, oli kohteena sitten koti, vapaa-ajan asunto, julkinen tila tai työympäristö. ",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 2,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "design-saarinen-sisustussuunnittelu--erikoismaalaus",
+  "EncodedName": "design-saarinen-sisustussuunnittelu--erikoismaalaus"
+}, {
+  "ID": "4fb15de1-2c80-e211-97e4-60eb696ecc53",
+  "Name": "Väriset Oy",
+  "City": "VANTAA",
+  "PhoneNumber": "0207344766",
+  "Email": "info@variset.fi",
+  "Description": "Väritämme talostasi!\n\nVäriset Oy on suomalainen ulkopintojen maalaukseen (https://www.variset.fi/talon-maalaus/) ja kattojen huoltoon (https://www.variset.fi/tiilikaton-pinnoitus/) sekä maalaukseen erikoistunut yritys.\n\nVäriset Oy:n historia lähtee jo vuodesta 2007, kun Peltokorven veljekset alkoivat tehdä toiminimellä ulkomaalauksia Oulun seudulla kesätyöksi. Tyytyväisten asiakkaiden myötä töitä alkoi olla jo niin paljon, että veljekset pystyivät palkkaamaan jopa ulkopuolisia työntekijöitä. 2013 toiminta siirrettiin Pääkaupunkiseudulle. Nykyään Väriset työllistää jo 100 maalausalan ammattilaista Uudellamaalla ja Pirkanmaalla. Tyytyväisiä asiakkaita on jo yli 1400 ja lisää tulee jatkuvasti. \n\nPyydä meidät ilmaiselle arviokäynnille.",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 2,
+  "Certificates": [{
+    "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+    "Name": "Terassit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Terassin öljyäminen"
+  }, {
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "väriset-oy",
+  "EncodedName": "v%c3%a4riset-oy"
+}, {
+  "ID": "613c3783-f51c-e111-9e43-60eb696ecc53",
+  "Name": "Maalauspalvelu Artisania",
+  "City": "VANTAA",
+  "PhoneNumber": "050 356 2726",
+  "Email": "natunen.anne@gmail.com",
+  "Description": "Artisania on sisustusmaalaukseen, tapetointiin, erikois –ja efektimaalaukseen erikoistunut yritys. ",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "maalauspalvelu-artisania",
+  "EncodedName": "maalauspalvelu-artisania"
+}, {
+  "ID": "64c45d0e-f51c-e111-9e43-60eb696ecc53",
+  "Name": "TelaKalle Oy",
+  "City": "TAMPERE",
+  "PhoneNumber": "+358503634849",
+  "Email": "telakalle@telakalle.fi",
+  "Description": "Olemme sisäremonttien moniosaaja teemme kaiken lattiasta kattoon. Meidän kautta tilaaja saa tarvittaessa sähkömiehet ja putkarit monista yhteistyökumppaneistamme. Laskutus menee meidän kautta joten saat vain yhden laskun.",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 4,
+  "Certificates": [{
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }, {
+    "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+    "Name": "Terassit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Terassin öljyäminen"
+  }, {
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "telakalle-oy",
+  "EncodedName": "telakalle-oy"
+}, {
+  "ID": "7c235f57-f51c-e111-9e43-60eb696ecc53",
+  "Name": "Kattopatrol Ky",
+  "City": "JYVÄSKYLÄ",
+  "PhoneNumber": "+358400866067",
+  "Email": "kari.hirvimaki@kattopatrol.fi",
+  "Description": "Uudistamme kattosi!\n\nKattopatrol on nuorekas palveluhenkinen kattomaalauksiin erikoistunut yritys. Pesemme, pinnoitamme ja maalaamme kaiken tyyppisiä kattoja. Pelti-, mineriitti-, huopa- ja tilikatot.\nHaluamme tehdä työmme aina 100 % tyytyväisyystakuulla. Tutustu referensseihimme ja asiakkaiden tarinoihin kuinka olemme työssämme onnistuneet www.kattopatrol.fi tai lataa ilmainen kattohuollon Ostajan Opas.",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "kattopatrol-ky",
+  "EncodedName": "kattopatrol-ky"
+}, {
+  "ID": "ad49f54d-0e9d-e711-8113-70106faac331",
+  "Name": "Maalauspalvelut Helen Hersti",
+  "City": "TUUSULA",
+  "PhoneNumber": "0405640654",
+  "Email": "helen.hersti@yahoo.com",
+  "Description": "Maalauspalvelut Helen Hersti on monipuolinen maalausliike Uudellamaalla. Toteutan ammattitaidolla kaikki sisäpintojen tasoite- ja maalaustyöt perusmaalauksista erikoismaalauksiin sekä tapetointityöt. ",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "maalauspalvelut-helen-hersti",
+  "EncodedName": "maalauspalvelut-helen-hersti"
+}, {
+  "ID": "af38bafd-f28d-e511-80fe-1458d043c6c0",
+  "Name": "Katemaalaus",
+  "City": "HALIKKO",
+  "PhoneNumber": "0451859659",
+  "Email": "katemaalaus@gmail.com",
+  "Description": "Kaikki maalaustyöt ammattitaidolla,luotettavasti!\n\n- Maalaustyöt/rakennustyöt takuulla ja Suomalaisttain!\n- Ilmainen arviointi ja katselmus.\n\n*Tiili/Varttikatteet\n*Peltikatot\n*Julkisivut\n*Muut maalaus/tasoitetyöt\n*Kalusteasennukset,laminaatit/parketit\n*Väliseinät,rungot,yms..\n* Vesieristykset ( VTT sertifikaatti)",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "katemaalaus",
+  "EncodedName": "katemaalaus"
+}, {
+  "ID": "e13ca5cf-f41c-e111-9e43-60eb696ecc53",
+  "Name": "Navaco Oy",
+  "City": "UUSIKYLÄ",
+  "PhoneNumber": "0447703121",
+  "Email": "info@navaco.fi",
+  "Description": "Vaihtoehto valkoiselle !\n\nTeen kaikki maalausalaan liittyvät työt, myös erikoismaalaukset, koristemaalaukset, fantasiamaalaukset, erilaiset pintojen käsittelyt sekä taidekäsityöt ym. ym. Yksityiset sekä julkiset tilat. Uudis- ja saneerauskohteet. Pääasiallisesti etelä-suomessa, tarvittaessa kyllä laajennan reviiriäni. Kaikki työni on tehty pensseleillä sekä muilla tekniikoilla, kynäruiskua ei ole käytetty. Kotisivuillani www.navaco.fi palvelut sivulta löytyy kuvagalleriasta lisää kuvia vuosien varsilta. Suunnittelen ja toteutan juuri Teidän tarpeita vastaavan kokonaisuuden.",
+  "NumberOfProjects": 11,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 0,
+  "Certificates": [{
+    "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+    "Name": "Terassit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Terassin öljyäminen"
+  }, {
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "navaco-oy",
+  "EncodedName": "navaco-oy"
+}, {
+  "ID": "0e94ff27-e38d-e511-80f0-3863bb357f98",
+  "Name": "Tammijuuri",
+  "City": "HELSINKI",
+  "PhoneNumber": "+358407350437",
+  "Email": "lauri@tammijuuri.fi",
+  "Description": "Tammijuuri on ystävällinen ja ihmisläheinen maalausliike Helsingistä.\n\nKeskityn pääasiassa asuinhuoneistojen ja pienten liiketilojen pintakäsittelyyn. Toiminta-alueeni on pääosin pääkaupunkiseudulla. Maalarin palveluiden lisäksi teen myös tapetoinnit, laminaattilattioiden asennukset, nauhoitus-, tasoite-, ja verkotustyöt sekä pienet ulkomaalaustyöt ammattitaidolla ja asiakkaiden toiveiden ehdolla.\n\nMaalauspalvelussani huomioin ympäristön ja luonnon muun muassa kierrättämällä kaiken mahdollisen työstä aiheutuvan jätteen ja käyttämällä ympäristöystävällisiä tarvikkeita ja materiaaleja.",
+  "NumberOfProjects": 10,
+  "NumberOfFeedback": 1,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+    "Name": "Terassit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Terassin öljyäminen"
+  }, {
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "tammijuuri",
+  "EncodedName": "tammijuuri"
+}, {
+  "ID": "a955498a-ad9a-e611-80f4-5065f38ba511",
+  "Name": "Tmi Salla Ikonen",
+  "City": "OTALAMPI",
+  "PhoneNumber": "+358445499939",
+  "Email": "salla.ikonen@gmail.com",
+  "Description": null,
+  "NumberOfProjects": 10,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "tmi-salla-ikonen",
+  "EncodedName": "tmi-salla-ikonen"
+}, {
+  "ID": "ab4ae4f2-308e-e311-ac10-60eb696ecc53",
+  "Name": "Jaana Sivonen Design Oy",
+  "City": "HELSINKI",
+  "PhoneNumber": "0505943388",
+  "Email": "jaana@jaanasivonendesign.com",
+  "Description": "Jaana Sivonen Design Oy toteuttaa ammattitaidolla, pohjanmaalaisella sisulla ja rakkaudella perusmaalausta, kuviomaalausta, erikoisseiniä, tapetointia ja koristemaalausta. Tulen aina katsomaan tulevat työkohteeni  paikan päälle ja mietitään yhdessä sinulle sopiva ratkaisu. Teen pintakäsittelyä Helsingissä ja noin 40-50km säteellä Helsingin lähialueella.",
+  "NumberOfProjects": 10,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 2,
+  "Certificates": [{
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }],
+  "Logo": "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACQAJADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiuY8feM7TwN4Xn1WcCSdj5VrB/z1lI4H0GCSfQeuBQB09FfE178Q/GF9qMt9J4k1SOaQ5IguniRfYKpAA9gK9W+Ffxm17VPE9l4f8AEEkN5FeMyR3RQRyRvtyoO0AMCRjoDls57UAfQdFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXzh+0mNS/4SDRTJn+y/sriHpjzt37z3+75XX8O9fR9c14403w3rHh17DxM0a2srgQndiXzcHb5QGS0nXCgEnOMHOCAfJvw60G28T+P9H0i95tZ5i0q5I3qilyuRyMhcZHPNe9aV8L7Hw94q0/U/7G0uK2h1BRFc289zvVTHKBvSV2XJl8kDbnqfw5CP4M6z4SNj4r0nVVW5tXS4WxuIcyqSRiHKtiRjnYQNoJPGM16qmnXGs+J9AnvxNJNpkMkt0Z9LVEMuAF2SMDjls4RmH7sEnIGQDt6KK878S/EO6H2iHwrpN7q62qSG7ubePbGhX5diSONpcE54V/u42nJKgHolc5d+NtIi1B9NsTNq2pIcPaacnmtGc4/eNkJHz/AH2WuasPBFx4kv5dR8U314ZBGLeeztpjHBICocpuB3sgL4I3AFlPygKBXfadpljpFmlnp1nBaWyfdigjCKPXgd6AMTQ28YXepST67Hptjp65MNras0srkk48xz8oAGPujJIzkDg9LRRQAUUUUAFFFFABRRRQAUUUUAVtQvYtN0y6v593k20LzPtGTtUEnH4Cs+x063t9N36qLeW7vIwt5LIoxKTk7Of4BuYKpzgevJOtLGk0TxSorxupVlYZDA9Qa5qzmsYfBZv9YhW5Gl2s9vczTRBmdYSUlIBHRjDux34oAw/iFY+KLTS4ZdEzf6VDdRXV3Zgt9rCxur7YXzyMrnBBYHoSMKOr8O6qmpWPF19qwqSRXBUIbiF1DRyFR0zyp4XLI2Ao4Hy34E+Luv8AguSO1kc6hpA4NnM/MY/6Zt1X6cryeMnNfQXhnXfC/jLzNV8MXwsdVlGZ49gWRyMHEsR4kAyAWHIDEBxk0Ad0zBFLMQFAySTwK5uS8vL2/C2b+Qb6MLBII8vFChJeY7vlyS6qikHqGIYblUvbq+WQJrNrImnQpvkksUacXLbiApVQXVQAGYbSDnBchSHt+HSt7avrLtG81/hsoyuI41yEi3LkHblieSN7Pg4IAANKysoNPtEtbZNkSZPJLEknJYk8sxJJJPJJJPJqxRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXifxo8Ut4c0DVtBjud13rVyskcatgwWvloH/AO+nRx7729K77xj8SPDngqF11G8WS+C5Syg+aVvTI/hHu2PbNfJfjDxTfeMvEt1rN98rSnbFEGJWGMfdQfT9SSe9AFHRNOOsa/p2mK203l1FbhvTewXP619a2PgfTPBmkx2unWUl9pKsJbqCUGWdZQMfaYiBneBgFVAJABTDDbJ8oeGdRh0jxXo+p3AYwWd9DcSBRk7UcMce+BX2vZeItE1Kw+3WerWU9qBkypOpVfqc8H2NAGDpjXWq36y+H9buBolpG0Qlmxcx3Uo4+V3G90XBywfknAOVapLpLmyumubwR6bdEHOq2o3Ws2FH/HxGSCvCdSTtHAlBbB0I/Gnhea4W3t/EOl3FwxwsMF2kjsfQKpJJ/CpJfE+nwsVa31Ykf3NIumH5iM0AWLLVPNujY3kQtr9U8wR7tySp0LRtgbgDgEYBXIyAGUnRrz6TVNOhbV47eGVLXT7aLV7W1khkt5kMbP5oSNwrKhCIOBgmRxzkivQaACiiigAooooAKKKKACiisDxT4z0LwZZw3Ot3ogWd9kSKhd3I64Uc4Hc9OR6igDfrgdT+M3gTT/tMQ16Ke4hVtqQwyyK7AcAOqlTn1zivNPiB8eYdUtbzRfD1mzWNzbSQTXc+Uc7gR8i9hjueTnoMZrwmgCxfXtzqV/cX15K01zcSNLLI3VmJyT+dV6KKACvaPh78CLzWUi1TxQ0thZEhks1GJpR/tZ/1Y6dsnn7vBo+AXgSLWtUm8T6hGHtdOlCWsZAIefAbcef4AVI46sDn5a968S+MdC8I2izavfxQtJnyYNw8yU+ij64GThRnkigC5oug6V4dsFsdIsILO3X+CJcbjjGWPVjx1JJqvd+K9CsbwWk2oxGfzkt2SIGTy5HICK+0HZkkY3Y61j2SXHjaFri71KCPSQ5Q6fpl2HL8DKzzIevPMaEDsWcGtHXNKtYfDlvp9lZww2sd5aFYIowqIq3MbHAHAxgmgDmdT8SyP4uaOByEExt3jkXKmKIM0p2kggkCUFsMh2xchlK13Gi3C3mhafcoWZZraOQFupBUHmsTWdD0mwS6vvsfmNqN9brcxuxZH8xlt2+Q8DKSHOBz3zgV0Gn2Nvpem2un2ieXbWsKQwpuJ2ooCqMnk8AdaALNFFFABRRRQAUUUUAFfPP7SmpWcl7oeleXIb6COS4L5wgjc7cY7kmP8Md88fQ1ePfGv4Zaj4vks9b0QJLfW0XkTQSSqgeMEspUsQAQWbOTyD7cgHzDRQeDiigAor6S8P8Awc+HHijw1aXGl6ne3JAxLdwXCh2fqQ6MpCEZ6YBxjr1re0b4CeC9Iv1u5UvdS2EFYr6VWjBBzkqqru+jZB9KAE+Emha1Z/DXS4PMg0yK4DXLSxL5s8qudyt8w2RnbtHIfI/unpv6r8MfDGtKwv7Lz2ZQPMkw0pI6M02PNY8Y5cjHHpXYAADAGAKWgDw7UvhFrHhRl1XwVrF1bXEcglktUd/JlK8gFcltvVdrGTO7kgEkbfgr4kDxeZ/B3ie1ksNekhkRmgO2OZCuQ0bAkhip3AjIIG5TyAPVq8v+Knw5tPEGkte2ELRatE++3liPSQnO0+isx5PRWO/gGQkA6x7u91PwrqUCpGNbs0eJk24UXKLujcDn5WOxxzwCAeQQOggmjuII54nDxyKHRgeCCMg15h4G8bDxJaadrlz9ng1RZ/7K1aCP5cBixgcqctnf8oycfvJfTjvPC8a23h61sUV1Ww3WSiT7xWFjGrH/AHlUN9GFAGvRRRQAUUUUAFFFFABVDXNN/tnQNS0vzTD9ttZbfzAM7N6lc49s1fooA+F/EPhfWvC199k1nT5rSQkhGdfkkxjJRujDkdPWsiu3+KGkeLNM8VSP4qmmunmZza3TNmOSMN0QdFAz9zjGenIJ5LTUs5NUtE1GWSKxaZBcSRLl1jyNxUeuM0Aei/AWbUk+J1tHZ+abSSCUXoUZXywhKlvT59mD6nHevd9S8cHTvHuo6JfrBHpVpoh1Jpg5SXd5gTbuLBcHPHTnHNQ3s/hv4S+DoLvR9KX7JcTxRNMhJB35IlmkAZtgGeQG6gAc1na1feB4tXvjr8NlLb3uhRz3V159xcu0DTAKFwhHl72BDKwbIU7cAEAGrH448M3Et1GZNUjltrmC1aOSWRHdpl3R7F35bODwBu4PGOay3+JHhiTTtMv47fxBKmoW91cRolyysi24ZpN2ZgM4UkYJzVyTTPhzBrBtmBfUJpI9Q+We4lbNvlUlDAnaE3MucgcMP4TipFZfC5ZLXSI4mBsrm40eFGN0FSadWEsW88EsC3JJ9iKAM3xHqHgy80GJ7vVPE8dvNDa38og1KWRoY5nBQSKzsq4LKcYzjG0kivTrPQ7Kztbm2xNcx3JbzReTvcblOfk+cn5ACQF6cnjk589vF+EtxpNxPPJGbKOxhSVopLkCS3hl8mM/IcyhZAF3fN0XJxg16BpXiHS9auby2sLkyT2RQXETxPG0e9dy5DAHBHINAHid9HYeD/i7DPczSQ2ep36XbwO4Gwx+ZEZZcjO0yM8obIGEYkHjb7VYSRR+IdWs0/1jrBePz/fUxD/0Qa8e+KWdR+Ien6JZKLi/uXSdS8giZVhSUiFHwcFy74bja2PTI5PwX4y1rwX42T+0XnuNGBFjdOUYCGMMdmU6RMhLHZgEAtxyDQB9R0UUUAFFFFABRRRQAUUUUAcZ8R/h9B8QtJtLN737FLbT+ak4h8w7SCGXGR14Oc9q8W+JHwo0TwLNoF/HcahLo1xeC31F5ZELoOD8gCjkqJD0PIFfTlYXjHwza+LvC19pFzFEzSxsbeSQZ8mbB2OMcjBPbqMjoTQBFfXGnzeFEeTzXslUxSW1paC487AKNF5YV9wBzkKP4eu3NcFoVl4M+1X6QaZ4naGy02TQHjk0+Z47iLcZHYGNCwcknqVxuGFHFM+FXiyXTr288E6/NFFquls0IJG0XEcYwHUkAsQgHUAlArDo1ewgggEEEHkEUAcPB4R8PW2oabfWQ1W1msdPGmxmK2kAeHOcNmM/NnPzDB+Y+2K114L0CDUbZpG1hjd65/bYdVUqlwpChGGzIjO/07HLCvQqKAPNE+H3g86C3hy3W+ht9QjCiWO1HmqjSCcKZjESACAMOeAADzg103h/Q9P0zWNa1m3N6s+peULhbjbtUQho1K7RxkAkgknpwOldLXl/xY+IKeHNOOmWQ8zULkbYkAyXboML3UHrnIYjZhsuUAMTQJJvFX7QNzfk2/l6DaNA425O5i+VBxjcrSMpPfYfWvVtS8M6DrM6z6pounXsyjaJLm1SRgPTJGce1cz8KPBkng/wkPtpD6pqDi6unZMOpKjEbN1O3nr3Zq7ugAooooAKKKKACiiigAooooAKKKKAOH+IXw5tfGsEN5DcS2WtWKs1lcxPsG/gqHIBOAwHI5HJFcDB8SfFvgBV0nxhozyC3ACahDGTFKDghSQAO+Ny9P7jGvdqgu7O11C1ktb22hubeQYeKZA6MPcHg0Acbpfxb8Iapt2ataxDZl5J50hVW/ugSFXP124qS9+K3hCytY7g6vaTIzYYQXMTtGP7xQNuI/3QT7VHqXwf8CanJNLJoEMMsuMtbSPEFx/dVSFH4Dmoofgt8P4XdhoIYPj5XuZWC49MtQBx2r/GPU/EFzPp3gbRbrU3UhRMkDlFySA7dDtORwdmCvJYEiug8BfC240fW5PFHiq+/tHxGzuY5IpWMUSldvA2rzgsMfdAIAHANeh6fpOnaTE0Wm2FrZxsQWW3hWME4xyAB2q5QAUUUUAFFFFABRRRQB//2Q==",
+  "UrlFriendlyName": "jaana-sivonen-design-oy",
+  "EncodedName": "jaana-sivonen-design-oy"
+}, {
+  "ID": "d04a3224-2980-e211-97e4-60eb696ecc53",
+  "Name": "Maalausliike Kaksio Oy",
+  "City": "TURKU",
+  "PhoneNumber": "+358442994095",
+  "Email": "info@maalausliikekaksio.fi",
+  "Description": "Maalausta ja saneerausta\n\nTapetoinnit, sisä-ja ulkomaalaukset, peltikatonmaalaukset ja kalusteasennukset.",
+  "NumberOfProjects": 10,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "maalausliike-kaksio-oy",
+  "EncodedName": "maalausliike-kaksio-oy"
+}, {
+  "ID": "1cc2506d-a59d-e111-8ddf-60eb696ecc53",
+  "Name": "Indarte Decoration",
+  "City": "SIPOO",
+  "PhoneNumber": "+358505588174",
+  "Email": "indartedeco@gmail.com",
+  "Description": "Indarte Decoration on perustettu vuonna 2003. Meillä on yli 20 vuoden kokemus erilaisista maalaustöistä, entisöinneistä, tapetoinneista ja koristemaalauksista. Teemme efektiseiniä, ja myös seinämaalauksia toiveen mukaan. Autamme sisustussuunnittelussa.\nSoita tai laita viestiä, niin mietitään kohteeseen sopivat ratkaisut",
+  "NumberOfProjects": 7,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 0,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "indarte-decoration",
+  "EncodedName": "indarte-decoration"
+}, {
+  "ID": "b4b7747b-f31c-e111-9e43-60eb696ecc53",
+  "Name": "Maalausliike JV Arvola",
+  "City": "PIRKKALA",
+  "PhoneNumber": "+358405036316",
+  "Email": "myynti@ulkomaalaukset.fi",
+  "Description": " Kun laatu, luotettavuus ja vastuullisuus ovat hakusanoja kilpailulle, otathan yhteyttä. Hinta koostuu tehdystä työstä sopimuksen mukaisesti myös urakalla.\n\nOlemme keskittyneet peltikattojen huoltomaalauksiin, ensimaalauksiin ja korjausmaalauksiin sekä puujulkisivumaalauksiin. Vanhat käsi-ja konesaumatut jalkaränneillä varustetut peltikatot ovat mieluisia kunnostaa, koska ne kestävät huollettuna läpi rakennuksen eliniän.\n\nVanhojen rakennusten puuvuoret ovat myös ikuista ja valikoitua materiaalia huollettuna asianmukaisesti. Lahovauriot puujulkisivussa korjataan aina. Hirsikorjaukset onnistuvat myös yhteistyökumppanin kanssa.\n\nKäytän myös märkähiekkapuhallusta luonnonhiekalla kohteen niin vaatiessa esim. bitumialumiinimaalien poistoon. Suurin osa töistäni tulee vanhojen töiden perusteella. Maalarimestarin paperit sain vuonna 2009 Suomen suurlähetystössä Berliinissä ja mestarintyöt käsittelivät peltikattoja ja talonmaalauksia. Korkeapainepesut, homepoistot ja muovipinnoitekattojen ruiskumaalaukset onnistuvat myös omalla laitteistolla perinteisiä menetelmiä unohtamatta.\n\nSoita niin katsotaan yhdessä mikä on talollesi parasta tehdä . Helsingissä teen noin viidesosan töistäni ja loput Pirkanmaalla.\n\nEmme vaihda hyväksi koettuja materiaaleja kotisi ympäriltä vaan kunnostamme ne kestämään seuraavat 50 vuotta. ",
+  "NumberOfProjects": 7,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "maalausliike-jv-arvola",
+  "EncodedName": "maalausliike-jv-arvola"
+}, {
+  "ID": "d1b82c90-a06e-e211-896d-60eb696ecc53",
+  "Name": "Punainen Pensseli Oy",
+  "City": "HELSINKI",
+  "PhoneNumber": "+358407767262",
+  "Email": "nora.ojanpera@gmail.com",
+  "Description": "Punainen Pensseli Oy tekee rakennusmaalausta siististi, tarkasti ja joustavasti kotitalouksille, yritysille ja taloyhtiöille. Kyseessä on yhden naisen yritys, jonka olen perustanut 2007. Pääasiallisia työkohteitani ovat sisäseinien ja -kattojen maalaukset kodeissa ja rappukäytävissä. Kesällä viihdyn ulkona, joten silloin toiminta painottuu ulkomaalauksiin.\n\nOlipa kyseessä seinän tapetointi tai rivitalonne ulkomaalaus, ole yhteydessä ja katsotaan, kuinka voin olla avuksi.",
+  "NumberOfProjects": 7,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+    "Name": "Terassit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Terassin öljyäminen"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "punainen-pensseli-oy",
+  "EncodedName": "punainen-pensseli-oy"
+}, {
+  "ID": "381b9e1a-0aa2-e811-814d-70106faac331",
+  "Name": "Pete Pihlajamaa Design",
+  "City": "VANTAA",
+  "PhoneNumber": "+358505453010",
+  "Email": "pete@bigp.fi",
+  "Description": "Pete Pihlajamaa Design on yritys, joka tarjoaa käsityönä tehtyä taidetta pintaan kuin pintaan.\nOsaamista ovat erikoismaalaukset ravintoloihin, uudiskohteisiin, autoihin, moottoripyöriin, ja kyltteihin, graafinen suunnittelu sekä erilaiset kuvitustyöt. Instagramista, Facebookista löydät uusimmat työnäytteet sekä myös www-sivuilta. \nhttps://www.instagram.com/petepihlajamaa/?hl=fi\nhttps://www.facebook.com/Pete-Pihlajamaa-Design-co-BigP-945888465479025/\nhttps://fi.linkedin.com/in/pete-pihlajamaa-4b942379",
+  "NumberOfProjects": 6,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "pete-pihlajamaa-design",
+  "EncodedName": "pete-pihlajamaa-design"
+}, {
+  "ID": "4822b101-f51c-e111-9e43-60eb696ecc53",
+  "Name": "DecoraDora Katja Kouvalainen",
+  "City": "Joensuu",
+  "PhoneNumber": "0503448969",
+  "Email": "katja@decoradora.fi",
+  "Description": "DecoraDora toteuttaa yksilölliset ja omaleimaiset seinämaalaukset kun haluat uutta ilmettä ja tunnelmaa kotiisi tai yritykseesi. Suunnittelen ja toteutan maalaukset kuvataiteilijan ammattitaidolla juuri Sinun tarpeitasi vastaavaksi. ",
+  "NumberOfProjects": 6,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 0,
+  "Certificates": [{
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "decoradora-katja-kouvalainen",
+  "EncodedName": "decoradora-katja-kouvalainen"
+}, {
+  "ID": "608bbf0c-16a1-e211-8c52-60eb696ecc53",
+  "Name": "Maalaus Pitkänen Oy",
+  "City": "SALO",
+  "PhoneNumber": "0407074281",
+  "Email": "matias.pitkanen@maalauspitkanen.fi",
+  "Description": null,
+  "NumberOfProjects": 6,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 3,
+  "Certificates": [{
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }, {
+    "Id": "2d0562be-16f0-e511-80fd-3863bb357f98",
+    "Name": "Terassit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Terassin öljyäminen"
+  }, {
+    "Id": "4956faa1-15f0-e511-80fd-3863bb357f98",
+    "Name": "Katot",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Pelti-, huopa- ja betonitiilikatteiden maalaustyöt"
+  }, {
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }],
+  "Logo": "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",
+  "UrlFriendlyName": "maalaus-pitkänen-oy",
+  "EncodedName": "maalaus-pitk%c3%a4nen-oy"
+}, {
+  "ID": "7fb94b88-e41c-e111-9e43-60eb696ecc53",
+  "Name": "Tasoite ja Maalaus Moilanen Oy",
+  "City": "JÄRVENPÄÄ",
+  "PhoneNumber": "+3580400617853",
+  "Email": "jarmo.moilanen@kotikone.fi",
+  "Description": "Olemme erikoistuneet yksilöllisiin pientaloihin.\n\nSisäpuoliset tasoite- ja maalaustyöt\nJulkisivurappaukset.",
+  "NumberOfProjects": 6,
+  "NumberOfFeedback": 0,
+  "NumberOfPainters": 1,
+  "Certificates": [{
+    "Id": "546e0a7a-16f0-e511-80fd-3863bb357f98",
+    "Name": "Puujulkisivut",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Lauta- ja hirsijulkisivujen maalaus- ja kuullotekäsittelyt."
+  }, {
+    "Id": "786573a5-16f0-e511-80fd-3863bb357f98",
+    "Name": "Tasoitustyöt",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Sisäseinien osa- ja ylitasoitukset."
+  }, {
+    "Id": "7f9d5e8f-15f0-e511-80fd-3863bb357f98",
+    "Name": "Efektimaalaus",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Koristemaalaukset erilaisilla tuotteilla. Esim. Tunto struktuuripinnoitteilla"
+  }, {
+    "Id": "9ee51093-16f0-e511-80fd-3863bb357f98",
+    "Name": "Sisämaalaukset",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Tavanomaiset seinä- ja kattopintojen maalaustyöt sisällä."
+  }, {
+    "Id": "a66ed128-16f0-e511-80fd-3863bb357f98",
+    "Name": "Lattiat",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Betonilattioiden käsittelyt. Parketti- ja lautalattioiden käsittelyt."
+  }, {
+    "Id": "df8f4867-16f0-e511-80fd-3863bb357f98",
+    "Name": "Kivijulkisivut ja sokkelit",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Rapattujen ja levymäisten kiviainesjulkisivujen maalauskäsittelyt ja pinnoitukset. Sokkelien oikaisu-, maalaus- ja pinnoitustyöt."
+  }, {
+    "Id": "e94dd84e-16f0-e511-80fd-3863bb357f98",
+    "Name": "Ovet ikkunat ja kalusteet",
+    "ExpertArea": "",
+    "FillColor": null,
+    "Description": "Ovien, ikkunoiden ja kalusteiden peittävät ja kuultavat käsittelyt sisällä ja ulkona."
+  }],
+  "Logo": "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACQAJADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiuRb4iaKl8LJpVF0ekJkXf+VH/CxdE8iObzV8qRtiP5i4Zs4wPeub63R/mOj6pW/lOuorkB8RtDM8sAmTzYhmRPNXK+uai/4Wf4cDSL9sh3R/fHnL8v1p/WqPf8w+q1e35HaUVyw8daYVhYA4m/1R3D5+M8evFNHj7SWtXugc26Z3Sh12rjrk+1L65Q/mH9Tr/ynV0Vyo8faS0iRqcu8fmqodcsn94e3vTR8QNIMEM4cGKZgkT+YuHY9AD3NH1yh/MH1St/KdZRXKv490qKGaaQ7Y4TiR2cAIfc9qVvHmlpu3cbQGOXHAPQ/jR9cofzB9Tr/wAp1NFclH8QdHljmkjcMkBIlYOMJjrml/4WBo/7r51/eoZI/wB4vzqOpHqKPrdH+YPqlb+U6yiuPi+I+hTxebFOjxhthZZVxnGcflzU7eO9LQwhsgznEQLj95xnj14oeLor7QLCVn9k6miuRPxE0URmQyrsXdlvMXA2/e/LvSJ8RdEkUskyMAnmHEi/dzjP0p/W6P8AML6pW/lOvorkrj4haPaTRxXMgiklOEV5FBb6VJF480uZwkWXY5wFcE8HB/I0vrlC1+Yf1Ste3Keeajpc9zePc28qRubV4FJHILEc1kL4VvLaLybW5jASYSwyYKNFwA2AOCDjp7111FfNxrTirI+jlRjJ3ZyT+FryW1jtHmgEUBlMcgB3uXJ+9+dWb3w5POt6YpUVp3gdeox5YGeR610lFP287/16i9hAw9R0y+vPsPlSRRm2V2LEkneUKj8Oc1XtvDU9touo6Z9pR47lfkJXG0kYbI/CtG81cWk7R+WGwOPmwarR+Ikebymt2U5xuzx3qk6vLpt/TJap82u5mL4SvImkeO8TeYpII2IOUjbAAH0G6kl8H3klsbMX8a28Rd4MR8q5xjjtgj9a2RrYeQqsQwDjJb3A/rTn1uNIElMZ+Zc4z7E/zGPxqvaVifZ0TMk0DUblJ7eae3W3nuBPIQpJPA4weMZFRp4a1BIY4GuYZEMUUMjsDu2xvlSPcjArWGsln2rCCTyPm7YzTU1p2bDQqoLADnkZOKOeqPkpFW20G6isdTtDKiQXKkQxAlljJzk88gHPSs8+DJ23BrtCqBo4Bj7kZBwv/fTH8MVuf2z+9nTygfKBPDZzTF1wyMQsA4A6tQp1VdoHCk9GZk3hi8u5nuJpYI5W2LsjB27VR1B+p3/pTpvDmpXYtZJbqCOSziVIAikjcGBJyemdoH510FleC8RyF2lGKmrVQ69RMpUKbRxkngy5/e+VdRqJYZVdMHHmOR8w/Ac/Spr/AMKXV8hkFwkdyIliViS2VydwJ7gg/mBXW0UfWancPq9M53V9Cur6e7EMkPlXkCwSGQHdGB3Wr2naOlhqV9dLg/aCpUf3eOfzPNalFQ6snHlLVKKlzHZf8Ifaf8/E36Uf8Ifaf8/E36V0dFfSfUsP/KfOfXcR/Mc5/wAIfaf8/E36Uf8ACH2n/PxN+ldHRR9Sw/8AKH13EfzHNHwXYMctLIT6lRR/whdhjHmPj02iuloo+pUP5Q+u1/5jmv8AhC7DOfNkz/uij/hC7H/nrJ+QrpaKPqWH/lD67X/mOb/4QyxznzZM+uBR/wAIZYj/AJayfkK6Sij6lQ/lD67X/mOaHguwBJEsgJ68CgeC7AHIkcH/AHRXS0UfUqH8ofXa/wDMc4PB1mOk8o+gFH/CH2n/AD8TfpXR0UfUsP8Ayh9dxH8xzn/CH2n/AD8TfpR/wh9p/wA/E36V0dFH1LD/AMofXcR/Mc5/wh9p/wA/E36Uf8Ifaf8APxN+ldHRR9Sw/wDKH13EfzBRRRXUcoUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z",
+  "UrlFriendlyName": "tasoite-ja-maalaus-moilanen-oy",
+  "EncodedName": "tasoite-ja-maalaus-moilanen-oy"
+}]
