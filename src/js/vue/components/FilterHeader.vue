@@ -12,7 +12,7 @@
           v-for="(sorting, index) in sortings"
           :key="index"
           :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
-          @click="sortingActive = sorting">
+          @click="sortingUse(sorting)">
           {{ sorting.Heading }}
         </button>
       </div>
@@ -25,7 +25,7 @@
           v-for="filter in filters"
           :key="filter.Id"
           :class="{ 'filter__bottom-button--active': filtersActive.includes(filter) }"
-          @click="switchFilter(filter)">
+          @click="filtersUpdate(filter)">
           {{ filter.Name }}
         </button>
       </div>
@@ -56,7 +56,9 @@ export default {
   },
   methods: {
     ...mapMutations([
-      'queryUpdate'
+      'queryUpdate',
+      'sortingUse',
+      'filtersUpdate',
     ]),
     pullSortings() {
       axios({
@@ -65,7 +67,7 @@ export default {
       })
         .then((response) => {
           this.sortings = response.data;
-          this.sortingActive = this.sortings[0];
+          this.sortingUse(this.sortings[0]);
         })
         .catch((error) => {
           console.error(error.response.data);
@@ -82,14 +84,6 @@ export default {
         .catch((error) => {
           console.error(error.response.data);
         })
-    },
-    switchFilter(item) {
-      // remove or add filter basing on its activity
-      if (this.filtersActive.includes(item)) {
-        this.filtersActive = this.filtersActive.filter(el => item !== el);
-      } else {
-        this.filtersActive.push(item);
-      }
     },
   },
 }

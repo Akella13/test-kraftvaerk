@@ -21,7 +21,9 @@ export default {
   },
   computed: {
     ...mapState([
-      'query'
+      'query',
+      'sortingActive',
+      'filtersActive',
     ])
   },
   mounted() {
