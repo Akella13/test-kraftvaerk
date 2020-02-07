@@ -8,6 +8,7 @@ mix.browserSync({
     proxy: false,
     server: true,
     watch: true,
+    open: false,
 });
 
 mix.disableNotifications();
