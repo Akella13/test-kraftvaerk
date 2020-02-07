@@ -24,8 +24,8 @@
         <button
           v-for="filter in filters"
           :key="filter.Id"
-          :class="{ 'filter__bottom-button--active': filter.active }"
-          @click="filter.active = !filter.active">
+          :class="{ 'filter__bottom-button--active': filtersActive.includes(filter) }"
+          @click="switchFilter(filter)">
           {{ filter.Name }}
         </button>
       </div>
@@ -46,6 +46,7 @@ export default {
       sortings: [],
       sortingActive: null,
       filters: [],
+      filtersActive: [],
     }
   },
   mounted() {
@@ -78,6 +79,14 @@ export default {
           console.error(error.response.data);
         })
     },
+    switchFilter(item) {
+      // remove or add filter basing on its activity
+      if (this.filtersActive.includes(item)) {
+        this.filtersActive = this.filtersActive.filter(el => item !== el);
+      } else {
+        this.filtersActive.push(item);
+      }
+    }
   },
 }
 </script>
