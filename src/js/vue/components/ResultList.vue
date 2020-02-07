@@ -11,7 +11,7 @@
 
 <script>
 import axios from 'axios';
-import { mapState } from 'vuex';
+import { mapState, mapGetters } from 'vuex';
 
 export default {
   data() {
@@ -20,20 +20,21 @@ export default {
     }
   },
   computed: {
-    ...mapState([
-      'query',
-      'sortingActive',
-      'filtersActive',
+    ...mapGetters([
+      'params',
     ])
   },
-  mounted() {
-    this.pullResults();
+  watch: {
+    params() {
+      this.pullResults(1);
+    }
   },
   methods: {
-    pullResults() {
+    pullResults(pageNumber) {
       axios({
         method: 'get',
-        url: '/public/data/pages/1.json',
+        url: `/public/data/pages/${pageNumber}.json`,
+        params: this.params,
       })
         .then((response) => {
           this.result = response.data;
@@ -41,7 +42,7 @@ export default {
         .catch((error) => {
           console.error(error.response.data);
         })
-    }
+    },
   }
 }
 </script>
