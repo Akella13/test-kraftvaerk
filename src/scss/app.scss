@@ -1,9 +1,9 @@
-$grid-breakpoints: (md: 700px);
-$container-max-widths: (md: 940px);
-$grid-gutter-width: 28px;
+// config
+@import "./config/";
 
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
-@import "~bootstrap/scss/reboot";
-@import "~bootstrap/scss/grid";
+// grid
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
+
+// components
+@import "./components/"

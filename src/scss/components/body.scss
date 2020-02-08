@@ -1,0 +1,9 @@
+body {
+  background: $color-bg;
+  color: $color-main;
+  font: 1rem/1.4 myriad-pro, Myriad Pro, Helvetica Neue, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+}
