@@ -57,9 +57,11 @@ export default {
         })
         .catch((error) => {
           // if there are no next pages
-          if (error.response.status === 404) {
-            this.nextPage = 0;
-          }
+          setTimeout(() => {
+            if (error.response.status === 404) {
+              this.nextPage = 0;
+            }
+          }, 1000)
           console.error(error.response.data);
         })
         .finally(() => {
