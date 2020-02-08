@@ -46,7 +46,10 @@ export default {
       axios({
         method: 'get',
         url: `/public/data/pages/${this.params.SortField}/${pageNumber}.json`,
-        params: this.params,
+        params: {
+          ...this.params,
+          pageNumber,
+        },
       })
         .then((response) => {
           // fake ajax response timeout
