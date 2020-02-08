@@ -12,7 +12,8 @@
           v-for="(sorting, index) in sortings"
           :key="index"
           :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
-          @click="sortingUse(sorting)">
+          @click="sortingUse(sorting)"
+        >
           {{ sorting.Heading }}
         </button>
       </div>
@@ -25,7 +26,8 @@
           v-for="filter in filters"
           :key="filter.Id"
           :class="{ 'filter__bottom-button--active': filtersActive.includes(filter) }"
-          @click="filtersUpdate(filter)">
+          @click="filtersUpdate(filter)"
+        >
           {{ filter.Name }}
         </button>
       </div>

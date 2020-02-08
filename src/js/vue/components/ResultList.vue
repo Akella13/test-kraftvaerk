@@ -1,6 +1,10 @@
 <template>
   <div>
-    <ul v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
+    <ul v-infinite-scroll="loadMore"
+      infinite-scroll-disabled="loading"
+      infinite-scroll-distance="10"
+      infinite-scroll-immediate-check="false"
+    >
       <li v-for="(item,index) in result" :key="index">
         {{ item.Name }}
         <img :src="`data:image/png;base64,${item.Logo}`">
@@ -20,7 +24,7 @@ export default {
     return {
       result: [],
       nextPage: 1,
-      busy: false,
+      loading: false,
     }
   },
   computed: {
@@ -38,7 +42,7 @@ export default {
   },
   methods: {
     pullResults(pageNumber) {
-      this.busy = true;
+      this.loading = true;
       axios({
         method: 'get',
         url: `/public/data/pages/${this.params.SortField}/${pageNumber}.json`,
@@ -49,15 +53,23 @@ export default {
           setTimeout(() => {
             this.result.push(...response.data);
             this.nextPage += 1;
-            this.busy = false;
           }, 1000);
         })
         .catch((error) => {
+          // if there are no next pages
+          if (error.response.status === 404) {
+            this.nextPage = 0;
+          }
           console.error(error.response.data);
         })
+        .finally(() => {
+          setTimeout(() => {
+            this.loading = false;
+          }, 1000);
+        })
     },
-    loadMore: function() {
-      if (this.nextPage < 7) {
+    loadMore() {
+      if (this.nextPage > 0 && this.params.SortField) {
         this.pullResults(this.nextPage);
       }
     },
