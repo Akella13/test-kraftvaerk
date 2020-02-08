@@ -4,10 +4,22 @@
       infinite-scroll-disabled="loading"
       infinite-scroll-distance="10"
       infinite-scroll-immediate-check="false"
+      class="container"
     >
-      <li v-for="(item,index) in result" :key="index">
-        {{ item.Name }}
+      <li v-for="(item, index) in result" :key="index">
         <img :src="`data:image/png;base64,${item.Logo}`">
+        <div>{{ item.Name }}</div>
+        <div>{{ item.City }}</div>
+        <div>{{ item.PhoneNumber }}</div>
+        <div>{{ item.Email }}</div>
+        <div>{{ item.Description }}</div>
+        <div>{{ item.Description }}</div>
+        <ul>
+          <li v-for="cert in item.Certificates" :key="cert.Id">
+            {{ cert.Name }}
+          </li>
+        </ul>
+        <div>{{ item.NumberOfProjects }}</div>
       </li>
     </ul>
   </div>
