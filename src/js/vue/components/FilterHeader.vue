@@ -58,6 +58,7 @@ export default {
     // pull sorting types and assign them to data
     this.pullRequest('sortings', 'sortings')
       .then(() => {
+        // use default sorting, so send first request
         this.sortingUse(this.sortings[0]);
       });
     // pull filter types and assign them to data

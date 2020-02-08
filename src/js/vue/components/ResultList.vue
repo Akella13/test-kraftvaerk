@@ -37,7 +37,11 @@ export default {
         params: this.params,
       })
         .then((response) => {
-          this.result = response.data;
+          this.result = null;
+          // fake ajax response timeout
+          setTimeout(() => {
+            this.result = response.data;
+          }, 1000);
         })
         .catch((error) => {
           console.error(error.response.data);
