@@ -6,20 +6,36 @@
       infinite-scroll-immediate-check="false"
       class="container"
     >
-      <li v-for="(item, index) in result" :key="index">
-        <img :src="`data:image/png;base64,${item.Logo}`">
-        <div>{{ item.Name }}</div>
-        <div>{{ item.City }}</div>
-        <div>{{ item.PhoneNumber }}</div>
-        <div>{{ item.Email }}</div>
-        <div>{{ item.Description }}</div>
-        <div>{{ item.Description }}</div>
-        <ul>
-          <li v-for="cert in item.Certificates" :key="cert.Id">
-            {{ cert.Name }}
-          </li>
-        </ul>
-        <div>{{ item.NumberOfProjects }}</div>
+      <li v-for="(item, index) in result"
+       :key="index"
+       class="row card"
+      >
+        <div class="col-12 col-md-2">
+          <div class="card__img">
+            <img :src="`data:image/png;base64,${item.Logo}`">
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
+          <div class="card__name">{{ item.Name }}</div>
+          <div class="card__city">{{ item.City }}</div>
+          <div class="card__phone">{{ item.PhoneNumber }}</div>
+          <div class="card__email">{{ item.Email }}</div>
+          <div class="card__desc">{{ item.Description }}</div>
+          <ul class="card__certs">
+            <li v-for="cert in item.Certificates"
+              :key="cert.Id"
+              class="card__cert-item"
+            >
+              {{ cert.Name }}
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-2">
+          <button class="button button__card" type="button">
+            Pyydä tarjous!
+          </button>
+          <div>{{ item.NumberOfProjects }}</div>
+        </div>
       </li>
     </ul>
   </div>

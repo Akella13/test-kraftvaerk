@@ -1,30 +1,34 @@
 <template>
   <div>
     <section class="filter__top">
-      <h4>HAE</h4>
-      <form class="filter__top-search" @submit.prevent="queryUpdate(query)">
-        <input type="text" v-model="query">
-        <button type="submit">Search</button>
+      <h4 class="heading heading__filter">HAE</h4>
+      <form class="filter__search" @submit.prevent="queryUpdate(query)">
+        <input class="filter__search-input" type="text" v-model="query">
+        <button class="filter__search-button" type="submit">Search</button>
       </form>
       <div class="filter__top-sorting">
-        <h5>Lajitteluperuste</h5>
-        <button
-          v-for="(sorting, index) in sortings"
-          :key="index"
-          :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
-          @click="sortingUse(sorting)"
-        >
-          {{ sorting.Heading }}
-        </button>
+        <h4 class="heading heading__filter">Lajitteluperuste</h4>
+        <div>
+          <button
+            v-for="(sorting, index) in sortings"
+            :key="index"
+            class="filter__top-sorting"
+            :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
+            @click="sortingUse(sorting)"
+          >
+            {{ sorting.Heading }}
+          </button>
+        </div>
       </div>
     </section>
 
     <section class="filter__bottom">
-      <h5>Valitse maalaustyö</h5>
+      <h5 class="heading heading__filter">Valitse maalaustyö</h5>
       <div>
         <button
           v-for="filter in filters"
           :key="filter.Id"
+          class="filter__bottom-button"
           :class="{ 'filter__bottom-button--active': filtersActive.includes(filter) }"
           @click="filtersUpdate(filter)"
         >
@@ -33,7 +37,7 @@
       </div>
     </section>
 
-    <hr>
+    <hr class="hr">
     <p>Etsi projektiisi sopivia urakoitsijoita ja pyydä tarjous!</p>
   </div>
 </template>

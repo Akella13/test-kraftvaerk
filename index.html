@@ -9,15 +9,51 @@
 </head>
 <body>
     <header class="header">
-        <section class="header__top"></section>
-        <section class="header__bottom"></section>
+        <section class="header__top">
+            <a class="header__top-home" href="/" title="Home">
+                <img src="" alt="">
+            </a>
+            <h1 class="header__top-heading">Tekijäpankki</h1>
+        </section>
+        <section class="header__bottom">
+            <nav class="header__bottom-nav">
+                <a class="header__bottom-link" href="/">Home</a>
+                <a class="header__bottom-link" href="/painters">Tekijät</a>
+                <a class="header__bottom-link" href="/about">Tietoa palvelusta</a>
+            </nav>
+            <button class="button button__header" type="button">
+                Pyydä tarjous
+            </button>
+        </section>
     </header>
 
-    <div id="app">
+    <main id="app">
         <app></app>
-    </div>
+    </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <h4 class="heading">Löydä lähin luotettava tekijä!</h4>
+                    <p>Tekijäpankista löydät osaavat ja luotettavat tekijät maalaustyöllesi.</p>
+                    <a class="link link__footer" href="/about">Lue lisää</a>
+                </div>
+                <div class="col-12 col-md">
+                    <h4 class="heading">Yleistä</h4>
+                    <p>Tekijäpankista löydät osaavat ja luotettavat tekijät maalaustyöllesi.</p>
+                    <a class="link link__footer" href="/about">Tietoa palvelusta</a>
+                    <a class="link link__footer" href="/about/contact">Ota yhteyttä</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>
+                <span>© 2019 Tikkurila Oyj - </span>
+                <a class="link" href="/">www.tikkurila.fi</a>
+            </small>
+        </div>
+    </footer>
     <script src="public/js/script.js"></script>
 </body>
 </html>
