@@ -33,7 +33,7 @@ export default {
     pullResults(pageNumber) {
       axios({
         method: 'get',
-        url: `/public/data/pages/${pageNumber}.json`,
+        url: `/public/data/pages/${this.params.SortField}/${pageNumber}.json`,
         params: this.params,
       })
         .then((response) => {
