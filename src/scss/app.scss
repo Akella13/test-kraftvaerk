@@ -1,9 +1,4 @@
-// config
-@import "./config/";
-
-// grid
+@import "config";
 @import "~bootstrap/scss/bootstrap-reboot";
 @import "~bootstrap/scss/bootstrap-grid";
-
-// components
-@import "./components/"
+@import "components";
