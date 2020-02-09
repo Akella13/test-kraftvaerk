@@ -16,11 +16,21 @@
           </div>
         </div>
         <div class="col-12 col-md-8">
-          <div class="card__name">{{ item.Name }}</div>
-          <div class="card__city">{{ item.City }}</div>
-          <div class="card__phone">{{ item.PhoneNumber }}</div>
-          <div class="card__email">{{ item.Email }}</div>
-          <div class="card__desc">{{ item.Description }}</div>
+          <a class="link card__name" :href="`/company/${item.UrlFriendlyName}`">
+            {{ item.Name }}
+          </a>
+          <div class="card__city">
+            {{ item.City }}
+          </div>
+          <a class="link card__phone" :href="`tel:${item.PhoneNumber}`">
+            {{ item.PhoneNumber }}
+          </a>
+          <a class="link card__email" :href="`mailto:${item.Email}`">
+            {{ item.Email }}
+          </a>
+          <div class="card__desc">
+            {{ item.Description }}
+          </div>
           <ul class="card__certs">
             <li v-for="cert in item.Certificates"
               :key="cert.Id"

@@ -12,7 +12,7 @@
           <button
             v-for="(sorting, index) in sortings"
             :key="index"
-            class="filter__top-sorting"
+            class="button button--round filter__top-sorting"
             :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
             @click="sortingUse(sorting)"
           >
