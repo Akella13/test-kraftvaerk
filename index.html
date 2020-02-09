@@ -10,20 +10,38 @@
 <body>
     <header class="header">
         <section class="header__top">
-            <a class="header__top-logo" href="/" title="Home">
-                <img src="" alt="">
-            </a>
-            <h1 class="header__top-heading">Tekijäpankki</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <a class="header__top-logo" href="/" title="Home">
+                            <img class="w-100 h-100 d-flex" src="public/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h1 class="header__top-heading">Tekijäpankki</h1>
+                    </div>
+                </div>
+            </div>
+            
         </section>
         <section class="header__bottom">
-            <nav class="nav">
-                <a class="link nav__link" href="/">Home</a>
-                <a class="link nav__link" href="/painters">Tekijät</a>
-                <a class="link nav__link" href="/about">Tietoa palvelusta</a>
-            </nav>
-            <button class="button button__header" type="button">
-                Pyydä tarjous
-            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="offset-2 col">
+                        <nav class="nav d-md-flex">
+                            <a class="link nav__link" href="/">Home</a>
+                            <a class="link nav__link" href="/painters">Tekijät</a>
+                            <a class="link nav__link" href="/about">Tietoa palvelusta</a>
+                        </nav>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button--transparent button__header" type="button">
+                            Pyydä tarjous
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
         </section>
     </header>
 

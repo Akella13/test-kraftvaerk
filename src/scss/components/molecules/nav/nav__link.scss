@@ -1,14 +1,12 @@
 .nav__link {
-  display: inline-block;
   margin-right: -4px;
-  vertical-align: middle;
-  display: block;
   padding: 13px 19px;
-  color: inherit;
+  color: $color-bg;
   transition: background .3s ease;
 
   &:hover {
     background: #aba495;
     text-decoration: none;
+    color: $color-bg;
   }
 }

@@ -1,3 +1,22 @@
 .header__top {
   background: linear-gradient(180deg, $color-bg 0, $color-bg 29%, #fdfdfd 37%, #e7e6e6 86%, #e2e2e2);
+
+  &-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &-heading {
+    padding: 10px 0;
+    color: #867d67;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: .01rem;
+    text-transform: uppercase;
+    margin-bottom: 0;;
+  }
 }
