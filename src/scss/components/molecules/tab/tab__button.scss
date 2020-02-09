@@ -1,0 +1,33 @@
+.tab__button {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 22px;
+  vertical-align: middle;
+  position: relative;
+  padding-bottom: 5px;
+  color: #3a3f6d;
+  transition: color .3s ease;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: #3a3f6d;
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+
+  &:hover,
+  &--active {
+    color: #282828;
+    text-decoration: none;
+
+    &:after {
+      opacity: 1;
+    }
+  }
+}

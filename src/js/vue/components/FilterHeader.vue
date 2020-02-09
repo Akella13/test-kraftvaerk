@@ -2,17 +2,17 @@
   <div>
     <section class="filter__top">
       <h4 class="heading heading__filter">HAE</h4>
-      <form class="filter__search" @submit.prevent="queryUpdate(query)">
-        <input class="filter__search-input" type="text" v-model="query">
-        <button class="filter__search-button" type="submit">Search</button>
+      <form class="search" @submit.prevent="queryUpdate(query)">
+        <input class="search__input" type="text" v-model="query">
+        <button class="search__button" type="submit">Search</button>
       </form>
       <div class="filter__top-sorting">
         <h4 class="heading heading__filter">Lajitteluperuste</h4>
-        <div>
+        <div class="tab">
           <button
             v-for="(sorting, index) in sortings"
             :key="index"
-            class="button button--round filter__top-sorting"
+            class="tab__button"
             :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
             @click="sortingUse(sorting)"
           >
@@ -28,7 +28,7 @@
         <button
           v-for="filter in filters"
           :key="filter.Id"
-          class="filter__bottom-button"
+          class="button button--round"
           :class="{ 'filter__bottom-button--active': filtersActive.includes(filter) }"
           @click="filtersUpdate(filter)"
         >

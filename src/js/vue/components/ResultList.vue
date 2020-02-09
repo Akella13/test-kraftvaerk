@@ -10,7 +10,7 @@
        :key="index"
        class="row card"
       >
-        <div class="col-12 col-md-2">
+        <div class="col-12 col-md-2 card__section">
           <div class="card__img">
             <img :src="`data:image/png;base64,${item.Logo}`">
           </div>
@@ -22,16 +22,16 @@
           <div class="card__city">
             {{ item.City }}
           </div>
-          <a class="link card__phone" :href="`tel:${item.PhoneNumber}`">
+          <a class="link card__contact" :href="`tel:${item.PhoneNumber}`">
             {{ item.PhoneNumber }}
           </a>
-          <a class="link card__email" :href="`mailto:${item.Email}`">
+          <a class="link card__contact" :href="`mailto:${item.Email}`">
             {{ item.Email }}
           </a>
           <div class="card__desc">
             {{ item.Description }}
           </div>
-          <ul class="card__certs">
+          <ul class="card__cert-wrapper">
             <li v-for="cert in item.Certificates"
               :key="cert.Id"
               class="card__cert-item"
@@ -44,7 +44,7 @@
           <button class="button button__card" type="button">
             Pyydä tarjous!
           </button>
-          <div>{{ item.NumberOfProjects }}</div>
+          <div class="card__projects">{{ item.NumberOfProjects }}</div>
         </div>
       </li>
     </ul>
