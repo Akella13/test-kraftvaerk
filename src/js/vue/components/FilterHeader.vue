@@ -2,7 +2,7 @@
   <div>
     <section class="filter__top">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between align-items-center">
           <div class="col-2">
             <h4 class="heading heading__filter">HAE</h4>
           </div>
@@ -12,21 +12,19 @@
               <button class="search__button" type="submit">Search</button>
             </form>
           </div>
-          <div class="col-12 col-md-5">
-            <div class="filter__top-sorting d-flex">
+          <div class="col-12 col-md-5 d-flex justify-content-end align-items-center">
               <h4 class="heading heading__filter">Lajitteluperuste</h4>
               <div class="tab">
                 <button
                   v-for="(sorting, index) in sortings"
                   :key="index"
                   class="tab__button"
-                  :class="{ 'filter__top-sorting--active': sorting === sortingActive }"
+                  :class="{ 'tab__button--active': sorting === sortingActive }"
                   @click="sortingUse(sorting)"
                 >
                   {{ sorting.Heading }}
                 </button>
               </div>
-            </div>
           </div>
         </div>
       </div> 
