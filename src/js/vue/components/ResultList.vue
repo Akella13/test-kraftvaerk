@@ -4,7 +4,7 @@
       infinite-scroll-disabled="loading"
       infinite-scroll-distance="10"
       infinite-scroll-immediate-check="false"
-      class="container"
+      class="container pb-3"
     >
       <li v-for="(item, index) in result"
        :key="index"

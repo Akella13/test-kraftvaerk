@@ -5,7 +5,17 @@
 
   &:active,
   &:hover {
+    color: #ab8b3f;
     text-decoration: underline;
     outline: 0;
+  }
+
+  &--more {
+    &::after {
+      content: "»";
+      display: inline-block;
+      margin-left: 3px;
+      color: #282828;
+    }
   }
 }
