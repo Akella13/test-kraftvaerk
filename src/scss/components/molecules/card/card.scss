@@ -2,4 +2,8 @@
   padding: 18px 0;
   border-top: 1px solid #e2e2e1;
   overflow: hidden;
+
+  &:first-child {
+    border-top: unset;
+  }
 }

@@ -10,12 +10,12 @@
        :key="index"
        class="row card"
       >
-        <div class="col-12 col-md-2 card__section">
-          <div class="card__img">
-            <img :src="`data:image/png;base64,${item.Logo}`">
+        <div class="col-12 col-md-2">
+          <div>
+            <img class="w-100" :src="`data:image/png;base64,${item.Logo}`">
           </div>
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 card__section">
           <a class="link card__name" :href="`/company/${item.UrlFriendlyName}`">
             {{ item.Name }}
           </a>
@@ -44,7 +44,7 @@
           <button class="button button__card" type="button">
             Pyydä tarjous!
           </button>
-          <div class="card__projects">{{ item.NumberOfProjects }}</div>
+          <div class="py-4">{{ item.NumberOfProjects }}</div>
         </div>
       </li>
     </ul>
