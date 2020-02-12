@@ -8,5 +8,5 @@ Recreate with your own HTML/CSS: https://tekijapankki.tikkurila.fi/painters
 * Place source code in a place, where we can review it
 
 To view:
-npm install
-npm run watch
+* npm install
+* npm run watch

@@ -1,4 +1,9 @@
 .filter__bottom {
   padding: 13px 0;
   background: #f7f7f7;
+
+  &-desc {
+    font-size: 1.2em;
+    text-align: center;
+  }
 }
