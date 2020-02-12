@@ -39,8 +39,8 @@
                   <button
                     v-for="filter in filters"
                     :key="filter.Id"
-                    class="button button--round"
-                    :class="{ 'filter__bottom-button--active': filtersActive.includes(filter) }"
+                    class="button button--round filter__bottom-button"
+                    :class="{ 'button--active': filtersActive.includes(filter.Name) }"
                     @click="filtersUpdate(filter)"
                   >
                     {{ filter.Name }}

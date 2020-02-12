@@ -4,7 +4,7 @@
   padding: 0 15px;
   border: 1px solid rgba(0, 0, 0, .3);
   border-radius: 0;
-  background-color: #fff;
+  background-color: $color-bg;
   background-image: none;
   background-origin: border-box;
   color: #666;
@@ -16,7 +16,7 @@
   line-height: 28px;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 $color-bg;
   text-transform: none;
   overflow: visible;
   vertical-align: middle;
@@ -24,12 +24,8 @@
 
   padding: 3px 14px;
   border: 1px solid #867d67;
-  border-top-color: rgb(134, 125, 103);
-  border-right-color: rgb(134, 125, 103);
-  border-bottom-color: rgb(134, 125, 103);
-  border-left-color: rgb(134, 125, 103);
+  border-color: rgb(134, 125, 103);
   color: #867d67;
-  font-size: 14.399px;
   font-size: 1.2rem;
   font-weight: 400;
   text-shadow: none;
@@ -47,7 +43,7 @@
   }
 
   &--transparent {
-    border-color: #fff;
+    border-color: $color-bg;
     opacity: .6;
     transition: opacity .3s ease;
     background-color: transparent;
@@ -56,7 +52,7 @@
     &:focus,
     &:hover {
       background: none;
-      color: #fff;
+      color: $color-bg;
     }
   }
 
@@ -66,5 +62,17 @@
     border-radius: 30px;
     color: #282828;
     line-height: 23px;
+  }
+
+  &--active {
+    border-color:#6ecd5b;
+    background:#6ecd5b;
+    color:$color-bg;
+
+    &:hover,
+    &:focus {
+      background: #4fbc39;
+      color: $color-bg;
+    }
   }
 }
