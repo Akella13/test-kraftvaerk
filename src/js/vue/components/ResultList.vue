@@ -20,14 +20,21 @@
             {{ item.Name }}
           </a>
           <div class="card__city">
+            <i class="icon icon--text icon--city"></i>
             {{ item.City }}
           </div>
-          <a class="link card__contact" :href="`tel:${item.PhoneNumber}`">
-            {{ item.PhoneNumber }}
-          </a>
-          <a class="link card__contact" :href="`mailto:${item.Email}`">
-            {{ item.Email }}
-          </a>
+          <span>
+            <i class="icon icon--text icon--phone"></i>
+            <a class="link card__contact" :href="`tel:${item.PhoneNumber}`">
+              {{ item.PhoneNumber }}
+            </a>
+          </span>
+          <span>
+            <i class="icon icon--text icon--mail"></i>
+            <a class="link card__contact" :href="`mailto:${item.Email}`">
+              {{ item.Email }}
+            </a>
+          </span>
           <div class="card__desc">
             {{ item.Description }}
           </div>
@@ -44,7 +51,10 @@
           <button class="button button__card" type="button">
             Pyydä tarjous!
           </button>
-          <div class="py-4">{{ item.NumberOfProjects }}</div>
+          <div class="py-4 pl-3">
+            <span class="icon icon--garage card__projects"></span><br>
+            <strong class="ml-1">{{ item.NumberOfProjects }}</strong>
+          </div>
         </div>
       </li>
     </ul>

@@ -9,7 +9,9 @@
           <div class="col-5">
             <form class="search" @submit.prevent="queryUpdate(query)">
               <input class="search__input" type="text" v-model="query">
-              <button class="search__button" type="submit">Search</button>
+              <button class="search__button" type="submit">
+                <i class="icon icon--search icon__button"></i>
+              </button>
             </form>
           </div>
           <div class="col-12 col-md-5 d-flex justify-content-end align-items-center">
