@@ -87,3 +87,12 @@
   font-weight: 600;
   font-style: italic;
 }
+
+@font-face {
+  font-family: kraftvaerk;
+  src: url('/public/fonts/kraftvaerk.ttf') format("truetype"),
+    url('/public/fonts/kraftvaerk.woff') format("woff"),
+    url('/public/fonts/kraftvaerk.eot') format("eot");
+  font-weight: 600;
+  font-style: normal;
+}
