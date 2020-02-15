@@ -10,6 +10,7 @@ export default new Vuex.Store({
 		query: '',
 		sortingActive: {},
 		filtersActive: [],
+		cart: [],
 	},
 	getters: {
 		params(state) {
@@ -39,6 +40,14 @@ export default new Vuex.Store({
 				state.filtersActive = state.filtersActive.filter(name => payload.Name !== name);
 			} else {
 				state.filtersActive.push(payload.Name);
+			}
+		},
+		// include/exclude painter id if it is in cart
+		cartUpdate(state, payload) {
+			if (state.cart.includes(payload.ID)) {
+				state.cart = state.cart.filter(id => payload.ID !== id);
+			} else {
+				state.cart.push(payload.ID);
 			}
 		},
 	},

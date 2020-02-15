@@ -48,7 +48,7 @@
           </ul>
         </div>
         <div class="col-12 col-md-2">
-          <button class="button button__card" type="button">
+          <button class="button button__card" type="button" @click="cartUpdate(item)">
             Pyydä tarjous!
           </button>
           <div class="py-4 pl-3">
@@ -63,7 +63,7 @@
 
 <script>
 import axios from 'axios';
-import { mapState, mapGetters } from 'vuex';
+import { mapState, mapGetters, mapMutations } from 'vuex';
 import infiniteScroll from 'vue-infinite-scroll';
 
 export default {
@@ -126,6 +126,9 @@ export default {
         this.pullResults(this.nextPage);
       }
     },
+    ...mapMutations([
+      'cartUpdate',
+    ]),
   }
 }
 </script>
