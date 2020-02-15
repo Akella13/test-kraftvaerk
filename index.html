@@ -9,75 +9,79 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <section class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <a class="header__top-logo" href="/" title="Home">
-                            <img class="w-100 h-100 pt-2" src="public/images/logo.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <h1 class="header__top-heading">Tekijäpankki</h1>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-        <section class="header__bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-2 col">
-                        <nav class="nav d-md-flex">
-                            <a class="link nav__link" href="/">
-                                <i class="icon icon--home"></i>
+    <div id="app">
+        <header class="header">
+            <section class="header__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <a class="header__top-logo" href="/" title="Home">
+                                <img class="w-100 h-100 pt-2" src="public/images/logo.svg" alt="">
                             </a>
-                            <a class="link nav__link" href="/painters">Tekijät</a>
-                            <a class="link nav__link" href="/about">Tietoa palvelusta</a>
-                        </nav>
+                        </div>
+                        <div class="col">
+                            <h1 class="header__top-heading">Tekijäpankki</h1>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <button class="button button--transparent button__header" type="button">
-                            Pyydä tarjous
-                        </button>
+                </div>
+                
+            </section>
+            <section class="header__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-2 col">
+                            <nav class="nav d-md-flex">
+                                <a class="link nav__link" href="/">
+                                    <i class="icon icon--home"></i>
+                                </a>
+                                <a class="link nav__link" href="/painters">Tekijät</a>
+                                <a class="link nav__link" href="/about">Tietoa palvelusta</a>
+                            </nav>
+                        </div>
+                        <div class="col-2">
+                            <!-- <cart></cart> -->
+                            <button class="button button--transparent button__header" type="button">
+                                Pyydä tarjous
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </header>
+
+        <main>
+            <filter-header></filter-header>
+            <result-list></filter-header>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md pt-3">
+                        <h4 class="heading heading__footer">Löydä lähin luotettava tekijä!</h4>
+                        <p class="footer__text">Tekijäpankista löydät osaavat ja luotettavat tekijät maalaustyöllesi.</p>
+                        <a class="link link__footer link--more" href="/about">Lue lisää</a>
+                    </div>
+                    <div class="col-12 col-md pt-3">
+                        <h4 class="heading heading__footer">Yleistä</h4>
+                        <ul class="list">
+                            <li>
+                                <a class="link link__footer link--more" href="/about">Tietoa palvelusta</a>
+                            </li>
+                            <li>
+                                <a class="link link__footer link--more" href="/about/contact">Ota yhteyttä</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            
-        </section>
-    </header>
-
-    <main id="app">
-        <app></app>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md pt-3">
-                    <h4 class="heading heading__footer">Löydä lähin luotettava tekijä!</h4>
-                    <p class="footer__text">Tekijäpankista löydät osaavat ja luotettavat tekijät maalaustyöllesi.</p>
-                    <a class="link link__footer link--more" href="/about">Lue lisää</a>
-                </div>
-                <div class="col-12 col-md pt-3">
-                    <h4 class="heading heading__footer">Yleistä</h4>
-                    <ul class="list">
-                        <li>
-                            <a class="link link__footer link--more" href="/about">Tietoa palvelusta</a>
-                        </li>
-                        <li>
-                            <a class="link link__footer link--more" href="/about/contact">Ota yhteyttä</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="footer__copyright">
+                <span>© 2019 Tikkurila Oyj - </span>
+                <a class="link" href="/">www.tikkurila.fi</a>
             </div>
-        </div>
-        <div class="footer__copyright">
-            <span>© 2019 Tikkurila Oyj - </span>
-            <a class="link" href="/">www.tikkurila.fi</a>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="public/js/script.js"></script>
 </body>
 </html>

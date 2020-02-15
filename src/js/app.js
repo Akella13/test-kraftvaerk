@@ -1,11 +1,9 @@
 import Vue from 'vue';
-import app from './vue/app';
 import store from './vue/store';
+import components from './vue/components';
 
 new Vue({
   el: '#app',
   store,
-  components: {
-    app,
-  }
+  components,
 })
