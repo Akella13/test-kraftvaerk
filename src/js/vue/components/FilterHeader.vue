@@ -34,22 +34,22 @@
 
     <section class="filter__bottom">
       <div class="container">
-          <div class="row">
-              <div class="col">
-                <h5 class="heading heading__filter">Valitse maalaustyö</h5>
-                <div>
-                  <button
-                    v-for="filter in filters"
-                    :key="filter.Id"
-                    class="button button--round filter__bottom-button"
-                    :class="{ 'button--active': filtersActive.includes(filter.Name) }"
-                    @click="filtersUpdate(filter)"
-                  >
-                    {{ filter.Name }}
-                  </button>
-                </div>
-              </div>
+        <div class="row">
+          <div class="col">
+            <h5 class="heading heading__filter">Valitse maalaustyö</h5>
+            <div>
+              <button
+                v-for="filter in filters"
+                :key="filter.Id"
+                class="button button--round filter__bottom-button"
+                :class="{ 'button--active': filtersActive.includes(filter.Name) }"
+                @click="filtersUpdate(filter)"
+              >
+                {{ filter.Name }}
+              </button>
+            </div>
           </div>
+        </div>
       </div>
       <hr class="hr">
       <p class="filter__bottom-desc">Etsi projektiisi sopivia urakoitsijoita ja pyydä tarjous!</p>

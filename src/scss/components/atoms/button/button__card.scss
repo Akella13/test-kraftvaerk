@@ -4,4 +4,9 @@
   padding: 3px 11px;
   border-color: #548235;
   color: #548235;
+
+  &--active {
+    @extend .button--active;
+    color: $color-bg;
+  }
 }

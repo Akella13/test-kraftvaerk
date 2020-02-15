@@ -1,6 +1,10 @@
 <template>
   <div>
-    <button class="button button--transparent button__header" type="button">
+    <button
+      type="button"
+      class="button button--transparent button__header"
+      :class="{ 'button--active': cart.length > 0 }"
+    >
       <span>Pyydä tarjous</span>
       <span v-show="cart.length > 0">{{ cart.length }}</span>
     </button>
@@ -14,7 +18,7 @@ export default {
   computed: {
     ...mapState([
       'cart',
-    ])
+    ]),
   },
 }
 </script>

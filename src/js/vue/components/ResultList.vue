@@ -48,8 +48,17 @@
           </ul>
         </div>
         <div class="col-12 col-md-2">
-          <button class="button button__card" type="button" @click="cartUpdate(item)">
-            Pyydä tarjous!
+          <button
+            class="button button__card"
+            type="button"
+            :class="{ 'button__card--active': cart.includes(item.ID) }"
+            @click="cartUpdate(item)"
+          >
+            <span v-if="cart.includes(item.ID)">
+              <i class="icon icon--check"></i>
+              <span>Lisätty listalle</span>
+            </span>
+            <span v-else>Pyydä tarjous!</span>
           </button>
           <div class="py-4 pl-3">
             <span class="icon icon--garage card__projects"></span><br>
@@ -76,6 +85,9 @@ export default {
     }
   },
   computed: {
+    ...mapState([
+      'cart',
+    ]),
     ...mapGetters([
       'params',
     ])
