@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import VueCookie from 'vue-cookie';
 
 Vue.use(Vuex);
+Vue.use(VueCookie);
 
 const debug = process.env.NODE_ENV !== 'production';
 
@@ -44,11 +46,16 @@ export default new Vuex.Store({
 		},
 		// include/exclude painter id if it is in cart
 		cartUpdate(state, payload) {
-			if (state.cart.includes(payload.ID)) {
-				state.cart = state.cart.filter(id => payload.ID !== id);
-			} else {
-				state.cart.push(payload.ID);
+			if (state.cart.includes(payload)) {
+				state.cart = state.cart.filter(item => payload !== item);
+			} else if (state.cart.length < 3) {
+				state.cart.push(payload);
 			}
+			Vue.cookie.set('tikkurila-mypainters', JSON.stringify({
+				painters: [
+					...state.cart.map(item => ({ id: item.ID }))
+				]
+			}));
 		},
 	},
 })

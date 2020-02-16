@@ -51,7 +51,7 @@
           <button
             class="button button__card"
             type="button"
-            :class="{ 'button__card--active': cart.includes(item.ID) }"
+            :class="{ 'button__card--active': cart.includes(item) }"
             @click="cartUpdate(item)"
           >
             <span v-if="cart.includes(item.ID)">
